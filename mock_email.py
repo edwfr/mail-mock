@@ -410,4 +410,4 @@ if __name__ == '__main__':
     print("- GET /api/statistics - Get email statistics")
     print("- GET /api/notification-rules - Get notification rules")
     print("- POST /api/notification-rules - Create notification rule")
-    app.run(debug=True, port=5003)
+    app.run(host="0.0.0.0", port=5003, debug=True)
