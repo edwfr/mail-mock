@@ -397,7 +397,7 @@ def get_statistics():
     })
 
 if __name__ == '__main__':
-    print("Starting Email Notification System on port 5003...")
+    print("Starting Email Notification System on port 80...")
     print("Available endpoints:")
     print("- GET /api/health - Health check")
     print("- POST /api/send-email - Send custom email")
