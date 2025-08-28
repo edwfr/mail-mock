@@ -9,6 +9,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copia il codice
 COPY . .
 # Esponi la porta Flask (5003)
-EXPOSE 5003
+EXPOSE 80
 # Comando di avvio
 CMD ["python", "mock_email.py"]
